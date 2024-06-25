@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title ">Arcane FAN</h1>
+            <button class="navbar-toggler" data-bs-toggler="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-arcane" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre Arcane
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#Personagens" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Personagens
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#Criadores" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Criadores
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-arcane">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">    
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img class="d-block w-100" src="./images/slides/slide1.jpeg" alt="jinx, uma das persongens principais">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="d-block w-100" src="./images/slides/slide2.jpeg" alt="Caytlin conversando com uma mulher">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="d-block w-100" src="./images/slides/slide3.jpeg" alt="Jinx e Vi as persongens principais">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./images/jinx.jpg" class="d-block w-100 rounded" alt="Foto da jinx, persongem principal">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-color">Arcane </span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facere magni doloremque perspiciatis earum fuga exercitationem deleniti omnis neque, sed minima autem quae nesciunt asperiores soluta rerum a ratione expedita.
+                            </p>
+                            <h3 class="section-title">Sobre <span class="text-color">o Universo</span></h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus eligendi vel nihil, et temporibus deleniti eius aut minima veniam officiis aperiam corporis asperiores quae quidem quisquam tempora inventore deserunt debitis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Personagens" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title  text-center">Para todas <span class="text-color">as ocasiões</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./images/personagens/caitlyn.webp" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title  text-color fs-4 d-flex justify-content-center">
+                            Caitlyn
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis natus dicta provident architecto quibusdam aspernatur cum ex, quis dolore illum itaque dolor cupiditate repellat excepturi id quo labore eum quidem.
+                        </p>
+                    </div>
+                        <div class="col-md-4">
+                        <img src="./images/personagens/jayce.webp" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title  text-color fs-4 d-flex justify-content-center">
+                            Jayce
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis natus dicta provident architecto quibusdam aspernatur cum ex, quis dolore illum itaque dolor cupiditate repellat excepturi id quo labore eum quidem.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/personagens/Viktor.webp" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title  text-color fs-4 d-flex justify-content-center">
+                            Viktor
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis natus dicta provident architecto quibusdam aspernatur cum ex, quis dolore illum itaque dolor cupiditate repellat excepturi id quo labore eum quidem.
+                        </p>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./images/personagens/VI.webp" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title  text-color fs-4 d-flex justify-content-center">
+                            Vi
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis natus dicta provident architecto quibusdam aspernatur cum ex, quis dolore illum itaque dolor cupiditate repellat excepturi id quo labore eum quidem.
+                        </p>
+                    </div>
+                        <div class="col-md-4">
+                        <img src="./images/personagens/jinx.webp" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title  text-color fs-4 d-flex justify-content-center">
+                            Jinx
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis natus dicta provident architecto quibusdam aspernatur cum ex, quis dolore illum itaque dolor cupiditate repellat excepturi id quo labore eum quidem.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/personagens/Silco.webp" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title  text-color fs-4 d-flex justify-content-center">
+                            Silco
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis natus dicta provident architecto quibusdam aspernatur cum ex, quis dolore illum itaque dolor cupiditate repellat excepturi id quo labore eum quidem.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Criadores" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">
+                        Os <span class="text-color">criadores</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-criadores">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#escritor" class="fw-bold text-start nav-link text-color active">Escritor</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#elenco" class="fw-bold text-start nav-link text-color">Elenco</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#produtores" class="fw-bold text-start nav-link text-color">Produtores</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#artista" class="fw-bold text-start nav-link text-color">Artista principais</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="escritor">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/criadores/escritor/Fizznchips.webp" alt="Fizznchips">
+                                        <h5 class="text-color fw-bold">Fizznchips</h5>
+                                        <p>
+                                            Escritor. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="elenco">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/criadores/elenco/Ella Purnell.png" alt="Ella Purnell">
+                                        <h5 class="text-color fw-bold">Ella Purnell</h5>
+                                        <p>
+                                            Jinx. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/criadores/elenco/Hailee Steinfeld.jpeg" alt="Hailee Steinfeld">
+                                        <h5 class="text-color fw-bold">Hailee Steinfeld</h5>
+                                        <p>
+                                            Vi. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/criadores/elenco/Katie Leung.jpg" alt="Katie Leung">
+                                        <h5 class="text-color fw-bold">Katie Leung</h5>
+                                        <p>
+                                            Caitlyn. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/criadores/elenco/Kevin Alejandro.webp" alt="Kevin Alejandro">
+                                        <h5 class="text-color fw-bold">Kevin Alejandro</h5>
+                                        <p>
+                                            Jayce. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/criadores/elenco/Mick Wingert.jpg" alt="Mick Wingert">
+                                        <h5 class="text-color fw-bold">Mick Wingert</h5>
+                                        <p>
+                                            Heimerdinger. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>  
+                            <div class="tab-pane" id="produtores">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/criadores/produtores/Alyssa Roberts.jpeg" alt="Alyssa Roberts">
+                                        <h5 class="text-color fw-bold">Alyssa Roberts</h5>
+                                        <p>
+                                            Supervisora ​​de produção. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/criadores/produtores/Eric-Bergman.png" alt="Eric Bergman">
+                                        <h5 class="text-color fw-bold">Eric Bergman</h5>
+                                        <p>
+                                            Supervisor de pós-produção. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/criadores/produtores/Cassie Jo Dull.jpg" alt="Cassie Jo Dull">
+                                        <h5 class="text-color fw-bold">Cassie Jo Dull</h5>
+                                        <p>
+                                            Gerente de produção. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div> 
+                            <div class="tab-pane" id="artista">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/criadores/artista/Jang Chol Lee.jpg" alt="Jang Chol Lee">
+                                        <h5 class="text-color fw-bold">Jang Chol Lee</h5>
+                                        <p>
+                                            Artista de desenvolvimento visual. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        </section>
+        <section>
+            <section id="fale-conosco" class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="section-title text-center">Fale <span class="text-color">conosco</span></h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-7 mb-5">
+                            <form>
+                                <div class="mb-3"> 
+                                    <label for="Nome" class="form-label fw-bold text-color">Seu nome</label>
+                                    <input type="text" id="nome" class="form-control" name="nome" required>
+                                </div>
+                                <div class="mb-3"> 
+                                    <label for="email" class="form-label fw-bold text-color">Seu e-mail</label>
+                                    <input type="text" id="email" class="form-control" name="email" required>
+                                </div>
+                                <div class="mb-3"> 
+                                    <label for="Telefone" class="form-label fw-bold text-color">Seu Telefone (opcional)</label>
+                                    <input type="text" id="Telefone" class="form-control" name="telefone">
+                                </div>
+                                <div class="mb-3"> 
+                                    <label for="Mensagem" class="form-label fw-bold text-color">Sua mensagem</label>
+                                    <textarea class="form-control" id="mensagem" required></textarea>
+                                </div>
+                                <button type="submit" class="btn">Enviar</button>
+                            </form>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="row">
+                                <h3 class="section-title fs-4 text-color">
+                                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                                    Redes sociais
+                                </h3>
+                                <ul class="social-links">
+                                    <li class="fs-5">
+                                        <a href="#">
+                                            <i class="bi text-color bi-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-5 ms-1 me-1">
+                                        <a href="#">
+                                            <i class="bi text-color bi-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-5">
+                                        <a href="#">
+                                            <i class="bi text-color bi-whatsapp"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-color">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua Zaun nº 145, Bairro Piltolver - Rune Terra - RT
+                            </p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https:///code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./js/main.js"></script> </script>
+</body>
+</html>

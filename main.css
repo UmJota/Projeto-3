@@ -1,0 +1,62 @@
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #d6eeff;
+}
+
+.navbar {
+    background-color: #1f7dd4;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: white;
+    color: #1f7dd4;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #a6dbff;
+}
+
+.section-title {
+    font-family: pacifico, cursive;
+}
+
+.text-color {
+    color: #1f7dd4;
+}
+
+#sobre-arcane, #Criadores{
+    background-color: #a6dbff;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: #1f7dd4;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #4994da;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carouserl-item img{
+        height: 280px;
+    }
+    
+}
